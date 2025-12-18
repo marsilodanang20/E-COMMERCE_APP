@@ -1,4 +1,4 @@
-# 🚗 Auto Clinic Mobile App
+# Auto Clinic Mobile App
 
 ![Auto Clinic Banner](public/banner/banner1.png)
 
