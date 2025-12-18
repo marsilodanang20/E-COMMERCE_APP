@@ -1,0 +1,265 @@
+/* Ionic Variables and Theming. For more info, please see:
+http://ionicframework.com/docs/theming/ */
+
+:root {
+  /** primary **/
+  --ion-color-primary: #007aff; /* iOS Blue */
+  --ion-color-primary-rgb: 0, 122, 255;
+  --ion-color-primary-contrast: #ffffff;
+  --ion-color-primary-contrast-rgb: 255, 255, 255;
+  --ion-color-primary-shade: #006be0;
+  --ion-color-primary-tint: #1a87ff;
+
+  /** secondary **/
+  --ion-color-secondary: #5856d6;
+  --ion-color-secondary-rgb: 88, 86, 214;
+  --ion-color-secondary-contrast: #ffffff;
+  --ion-color-secondary-contrast-rgb: 255, 255, 255;
+  --ion-color-secondary-shade: #4d4ca2;
+  --ion-color-secondary-tint: #6967da;
+
+  /** tertiary **/
+  --ion-color-tertiary: #5ac8fa;
+  --ion-color-tertiary-rgb: 90, 200, 250;
+  --ion-color-tertiary-contrast: #ffffff;
+  --ion-color-tertiary-contrast-rgb: 255, 255, 255;
+  --ion-color-tertiary-shade: #4fb0dc;
+  --ion-color-tertiary-tint: #6bcefb;
+
+  /** success **/
+  --ion-color-success: #34c759;
+  --ion-color-success-rgb: 52, 199, 89;
+  --ion-color-success-contrast: #ffffff;
+  --ion-color-success-contrast-rgb: 255, 255, 255;
+  --ion-color-success-shade: #2eaf4e;
+  --ion-color-success-tint: #48cd6a;
+
+  /** warning **/
+  --ion-color-warning: #ffcc00;
+  --ion-color-warning-rgb: 255, 204, 0;
+  --ion-color-warning-contrast: #ffffff;
+  --ion-color-warning-contrast-rgb: 255, 255, 255;
+  --ion-color-warning-shade: #e0b400;
+  --ion-color-warning-tint: #ffd11a;
+
+  /** danger **/
+  --ion-color-danger: #ff3b30;
+  --ion-color-danger-rgb: 255, 59, 48;
+  --ion-color-danger-contrast: #ffffff;
+  --ion-color-danger-contrast-rgb: 255, 255, 255;
+  --ion-color-danger-shade: #e0342a;
+  --ion-color-danger-tint: #ff4f45;
+
+  /** dark **/
+  --ion-color-dark: #1c1c1e; /* iOS System Gray 6 Dark or similar */
+  --ion-color-dark-rgb: 28, 28, 30;
+  --ion-color-dark-contrast: #ffffff;
+  --ion-color-dark-contrast-rgb: 255, 255, 255;
+  --ion-color-dark-shade: #18181a;
+  --ion-color-dark-tint: #333335;
+
+  /** medium **/
+  --ion-color-medium: #92949c;
+  --ion-color-medium-rgb: 146, 148, 156;
+  --ion-color-medium-contrast: #ffffff;
+  --ion-color-medium-contrast-rgb: 255, 255, 255;
+  --ion-color-medium-shade: #808289;
+  --ion-color-medium-tint: #9d9fa6;
+
+  /** light **/
+  --ion-color-light: #f4f5f8;
+  --ion-color-light-rgb: 244, 245, 248;
+  --ion-color-light-contrast: #000000;
+  --ion-color-light-contrast-rgb: 0, 0, 0;
+  --ion-color-light-shade: #d7d8da;
+  --ion-color-light-tint: #f5f6f9;
+  /* Light Mode Text Defaults */
+  --ion-text-color: #000000;
+  --ion-text-color-rgb: 0, 0, 0;
+
+  --ion-background-color: #ffffff;
+  --ion-background-color-rgb: 255, 255, 255;
+}
+
+/* Dark Mode - iOS Style */
+/*
+ * iOS Dark Mode
+ * -------------------------------------------
+ */
+
+body.dark {
+  --ion-color-primary: #0a84ff;
+  --ion-color-primary-rgb: 10, 132, 255;
+  --ion-color-primary-contrast: #ffffff;
+  --ion-color-primary-contrast-rgb: 255, 255, 255;
+  --ion-color-primary-shade: #0974e0;
+  --ion-color-primary-tint: #2290ff;
+
+  --ion-color-secondary: #5e5ce6;
+  --ion-color-secondary-rgb: 94, 92, 230;
+  --ion-color-secondary-contrast: #ffffff;
+  --ion-color-secondary-contrast-rgb: 255, 255, 255;
+  --ion-color-secondary-shade: #5351ca;
+  --ion-color-secondary-tint: #6e6cd8;
+
+  --ion-color-tertiary: #64d2ff;
+  --ion-color-tertiary-rgb: 100, 210, 255;
+  --ion-color-tertiary-contrast: #ffffff;
+  --ion-color-tertiary-contrast-rgb: 255, 255, 255;
+  --ion-color-tertiary-shade: #58b9e0;
+  --ion-color-tertiary-tint: #74d7ff;
+
+  --ion-color-success: #30d158;
+  --ion-color-success-rgb: 48, 209, 88;
+  --ion-color-success-contrast: #ffffff;
+  --ion-color-success-contrast-rgb: 255, 255, 255;
+  --ion-color-success-shade: #2ab84d;
+  --ion-color-success-tint: #45d669;
+
+  --ion-color-warning: #ffd60a;
+  --ion-color-warning-rgb: 255, 214, 10;
+  --ion-color-warning-contrast: #000000;
+  --ion-color-warning-contrast-rgb: 0, 0, 0;
+  --ion-color-warning-shade: #e0bc09;
+  --ion-color-warning-tint: #ffda23;
+
+  --ion-color-danger: #ff453a;
+  --ion-color-danger-rgb: 255, 69, 58;
+  --ion-color-danger-contrast: #ffffff;
+  --ion-color-danger-contrast-rgb: 255, 255, 255;
+  --ion-color-danger-shade: #e03d33;
+  --ion-color-danger-tint: #ff584e;
+
+  --ion-color-dark: #f4f5f8;
+  --ion-color-dark-rgb: 244, 245, 248;
+  --ion-color-dark-contrast: #000000;
+  --ion-color-dark-contrast-rgb: 0, 0, 0;
+  --ion-color-dark-shade: #d7d8da;
+  --ion-color-dark-tint: #f5f6f9;
+
+  --ion-color-medium: #989aa2;
+  --ion-color-medium-rgb: 152, 154, 162;
+  --ion-color-medium-contrast: #000000;
+  --ion-color-medium-contrast-rgb: 0, 0, 0;
+  --ion-color-medium-shade: #86888f;
+  --ion-color-medium-tint: #a2a4ab;
+
+  --ion-color-light: #222428;
+  --ion-color-light-rgb: 34, 36, 40;
+  --ion-color-light-contrast: #ffffff;
+  --ion-color-light-contrast-rgb: 255, 255, 255;
+  --ion-color-light-shade: #1e2023;
+  --ion-color-light-tint: #383a3e;
+
+  /* Force Full Black Backgrounds for OLED/AMOLED */
+  --ion-background-color: #000000;
+  --ion-background-color-rgb: 0,0,0;
+  
+  --ion-text-color: #ffffff;
+  --ion-text-color-rgb: 255,255,255;
+
+  /* Component Overrides for True Black */
+  --ion-item-background: #000000;
+  --ion-card-background: #111111;
+  --ion-toolbar-background: #000000;
+  --ion-tab-bar-background: #000000;
+  --ion-list-background: #000000;
+}
+
+/* Ensure specific components inherit the black background in dark mode */
+.dark ion-content,
+.dark ion-page {
+    --background: #000000;
+}
+
+.dark ion-toolbar {
+    --background: #000000;
+    --color: #ffffff;
+    border-bottom: 1px solid #222;
+}
+
+.dark ion-tab-bar {
+    --background: #000000;
+    border-top: 1px solid #222;
+}
+
+.dark ion-item {
+    --background: #000000;
+    --ion-item-background: #000000;
+}
+
+/* Fix for white lists in dark mode */
+.dark ion-list {
+    --ion-item-background: #000000;
+    background: #000000;
+}
+
+/* Input Fields in Dark Mode */
+.dark ion-input, 
+.dark ion-textarea, 
+.dark ion-select {
+    --background: #1c1c1e; /* Slightly lighter than black for contrast */
+    color: #ffffff;
+    --padding-start: 10px;
+    border-radius: 8px;
+}
+
+/* Alert / Popup Dark Mode Fix */
+.dark ion-alert {
+    --background: #1c1c1e;
+    --ion-background-color: #1c1c1e;
+    --color: #ffffff;
+}
+
+.dark .alert-title,
+.dark .alert-message,
+.dark .alert-head {
+    color: #ffffff !important;
+}
+
+.dark .alert-button {
+    color: var(--ion-color-primary) !important;
+}
+
+.dark .alert-button.alert-button-role-cancel {
+    color: var(--ion-color-danger) !important;
+}
+
+/* Modal Dark Mode Fix */
+.dark ion-modal {
+    --background: #1c1c1e;
+    --ion-background-color: #1c1c1e;
+}
+
+/* Toast Dark Mode */
+.dark ion-toast {
+    --background: #333333;
+    --color: #ffffff;
+}
+
+/* Toggle Control Fix */
+.dark ion-toggle {
+    --handle-background: #000000;
+}
+
+/* List Header Dark Mode Fix */
+.dark ion-list-header {
+    --background: #000000;
+    --color: #aaaaaa; /* Light Gray for high contrast against black */
+    color: #aaaaaa;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+.dark ion-list-header ion-label {
+    margin-bottom: 5px;
+}
+
+/* Fix Icon Colors in Settings Loop */
+.dark ion-icon {
+    color: #ffffff;
+}
+
+.dark ion-item {
+    --color: #ffffff;
+}

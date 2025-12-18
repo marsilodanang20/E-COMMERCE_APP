@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">appmobile</string>
+    <string name="title_activity_main">appmobile</string>
+    <string name="package_name">ionic.appmobile</string>
+    <string name="custom_url_scheme">ionic.appmobile</string>
+</resources>
