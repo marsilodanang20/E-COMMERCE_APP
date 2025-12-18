@@ -63,7 +63,7 @@ Follow these steps to get a local copy up and running.
 
 1.  **Clone the repository**
     ```sh
-    git clone https://github.com/your_username/E-COMMERCE_APP.git
+    git clone https://github.com/marsilodanang20/E-COMMERCE_APP.git
     cd E-COMMERCE_APP
     ```
 
